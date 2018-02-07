@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.androidchatapp.Register"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="30dp"
+        android:textColor="@android:color/holo_green_dark"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:weightSum="6">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/floatUpdate_name"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="0dp"
+            android:layout_weight=".8"
+            android:background="@drawable/box">
+
+            <EditText
+                android:id="@+id/etusername"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+                android:hint="User Name"
+                android:inputType="textPersonName"
+                android:textSize="15dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/floatpwd"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="0dp"
+            android:layout_weight=".8"
+            android:background="@drawable/box">
+
+            <EditText
+                android:id="@+id/etpassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+                android:hint="Password"
+                android:inputType="textPersonName"
+                android:textSize="15dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/floatcity"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="0dp"
+            android:layout_weight=".8"
+            android:background="@drawable/box">
+
+            <EditText
+                android:id="@+id/etcity"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+                android:hint="City"
+                android:inputType="textPersonName"
+                android:textSize="15dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/postalcode"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="0dp"
+            android:layout_weight=".8"
+            android:background="@drawable/box">
+
+            <EditText
+                android:id="@+id/etpostalcode"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+                android:hint="Postal Code"
+                android:inputType="textPersonName"
+                android:textSize="15dp" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/floatstretno"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="0dp"
+            android:layout_weight=".8"
+            android:background="@drawable/box">
+
+            <EditText
+                android:id="@+id/etstreetno"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+                android:hint="Street No"
+                android:inputType="textPersonName"
+                android:textSize="15dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/floathouseno"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="0dp"
+            android:layout_weight=".8"
+            android:background="@drawable/box">
+
+            <EditText
+                android:id="@+id/ethouseno"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:background="@null"
+                android:hint="House No"
+                android:inputType="textPersonName"
+                android:textSize="15dp" />
+        </android.support.design.widget.TextInputLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_marginTop="10dp"
+           android:layout_weight=".9"
+           android:weightSum="2"
+           android:orientation="horizontal">
+
+           <TextView
+               android:id="@+id/logintext"
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:text="LOGIN HERE"
+               android:textSize="20dp"
+               android:layout_marginTop="10dp"
+               android:textColor="@android:color/holo_green_dark"
+               android:gravity="center"
+               android:layout_marginBottom="5dp"/>
+
+
+           <ImageView
+               android:id="@+id/ImageView02"
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_marginTop="10dp"
+               android:layout_marginLeft="10dp"
+               android:layout_weight="1"
+               android:src="@mipmap/send" />
+
+       </LinearLayout>
+
+
+</LinearLayout>
+</LinearLayout>
